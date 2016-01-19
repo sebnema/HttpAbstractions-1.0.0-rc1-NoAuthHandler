@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+    "Microsoft.Extensions.WebEncoders": "1.0.0-rc1-final",
+    "Newtonsoft.Json": "6.0.6",
+    "xunit.runner.aspnet": "2.0.0-aspnet-rc1-final"
+  },
+  "commands": {
+    "test": "xunit.runner.aspnet"
+  },
+  "compilationOptions": {
+    "allowUnsafe": true,
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {
+      "dependencies": {
+        "System.Text.Encoding.Extensions": "4.0.11-beta-23516"
+      }
+    }
+  },
+  "resource": "..\\..\\unicode\\UnicodeData.txt"
+}

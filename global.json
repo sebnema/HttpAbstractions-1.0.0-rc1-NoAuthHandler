@@ -1,0 +1,10 @@
+{
+  "projects": [
+    "src",
+    "../Security-1.0.0-rc1/src",
+    "../Identity-3.0.0-rc1/src"
+  ],
+  "sdk": {
+    "version": "1.0.0-rc1-final"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "Microsoft.AspNet.Http": "1.0.0-rc1-final"
+  },
+  "commands": {
+    "SampleApp": "SampleApp"
+  },
+  "frameworks": {
+    "dnx451": {}
+  }
+}
